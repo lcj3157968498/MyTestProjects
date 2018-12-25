@@ -56,7 +56,7 @@ public class Main2Activity extends AppCompatActivity {
                         mSelectTags.add(name);
                     }
                 }
-                System.out.println("1111");
+                System.out.println("222");
                 //Toast.makeText(Main2Activity.this, mSelectTags.toString(), Toast.LENGTH_SHORT).show();
 
                 // Toast.makeText(Main2Activity.this,mTagsAdapter.mToastList.toString(),Toast.LENGTH_SHORT).show();
