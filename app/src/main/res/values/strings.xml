@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">MyTestProjects</string>
+    <string name="jsonData">{
+    "data": [
+        {
+            "level": 1,
+            "tags": [
+                {
+                    "name": "差评1"
+                },
+                {
+                    "name": "差评2"
+                },
+                {
+                    "name": "差评3"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "tags": [
+                {
+                    "name": "差1"
+                },
+                {
+                    "name": "差2"
+                },
+                {
+                    "name": "差3"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "tags": [
+                {
+                    "name": "中1"
+                },
+                {
+                    "name": "中2"
+                },
+                {
+                    "name": "中3"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "tags": [
+                {
+                    "name": "良1"
+                },
+                {
+                    "name": "良2"
+                },
+                {
+                    "name": "良3"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "tags": [
+                {
+                    "name": "优1"
+                },
+                {
+                    "name": "优2"
+                },
+                {
+                    "name": "优3"
+                }
+            ]
+        }
+    ]
+}</string>
+</resources>
