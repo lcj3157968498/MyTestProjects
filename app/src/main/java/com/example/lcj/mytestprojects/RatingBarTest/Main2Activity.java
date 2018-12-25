@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.lcj.mytestprojects.R;
@@ -29,6 +30,8 @@ public class Main2Activity extends AppCompatActivity {
     LinearLayout llHolderRec;
     @Bind(R.id.bt_commit)
     Button btCommit;
+    @Bind(R.id.tv_test)
+    TextView tvTest;
     private List<ResultTagsBean.DataBean.TagsBean> myrecylist = new ArrayList<>();
     private TagsAdapter mTagsAdapter;
     private ResultTagsBean resultTagsBean;
@@ -53,7 +56,7 @@ public class Main2Activity extends AppCompatActivity {
                         mSelectTags.add(name);
                     }
                 }
-                Toast.makeText(Main2Activity.this, mSelectTags.toString(), Toast.LENGTH_SHORT).show();
+                //Toast.makeText(Main2Activity.this, mSelectTags.toString(), Toast.LENGTH_SHORT).show();
 
                 // Toast.makeText(Main2Activity.this,mTagsAdapter.mToastList.toString(),Toast.LENGTH_SHORT).show();
             }
@@ -101,17 +104,6 @@ public class Main2Activity extends AppCompatActivity {
 
     }
 
-    public static void main(String[] args) {
-        String title = "互联网分诊(患者-医生)";
-
-//        title = title.substring(title.indexOf("(") + 1, title.indexOf(")"));
-//        String[] split = title.split("-");
-        String[] split = title.split("\\(")[1].split("\\)")[0].split("-");
-
-        System.out.println(split[0]);
-        System.out.println(split[1]);
-
-    }
 
 }
 
